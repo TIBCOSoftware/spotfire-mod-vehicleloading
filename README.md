@@ -1,5 +1,7 @@
 # Vehicle Loading Mod for TIBCO Spotfire®
 
+<img src="assets/vehicleloading.png" width="60%"/>
+
 A graphical representation of cargo loading in transportation and logistics, showing percentage loading of a vehicle capacity and with the ability to show state of cab or cargo doors open or closed.
 
 ## Installation & Use
