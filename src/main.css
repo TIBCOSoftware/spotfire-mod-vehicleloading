@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height:100%;
+}
+body {
+    margin:0px;
+    height:100%;
+}
+
+div.content {
+    height:100%;
+}
+
+div.content > div.schematic {
+    height:100%;
+}
+
+div.content > div.schematic > svg > g.cab > g > path {
+    visibility:hidden;
+}
+
+div.content > div.schematic > svg > g.cargo > g > path {
+    visibility:hidden;
+}
+
+div.content > div.schematic > svg > g.cab.open > g.doors-open > path {
+    visibility:visible;
+}
+
+div.content > div.schematic > svg > g.cab.closed > g.doors-closed > path {
+    visibility:visible;
+}
+
+div.content > div.schematic > svg > g.cargo > g > path {
+    visibility:hidden;
+}
+
+div.content > div.schematic > svg > g.cargo.open > g.doors-open > path {
+    visibility:visible;
+}
+
+div.content > div.schematic > svg > g.cargo.closed > g.doors-closed > path {
+    visibility:visible;
+}
+
+/*div.content > div.schematic > svg.vehicle > g.cab > rect {
+    fill: grey;
+}
+
+div.content > div.schematic > svg.vehicle > g.cab > g > line.door {
+    stroke-width: 1;
+    stroke:black;
+    visibility:hidden;
+}
+
+div.content > div.schematic > svg.vehicle > g.cab.open > g > line.door.open {
+    visibility:visible;
+}
+
+div.content > div.schematic > svg.vehicle > g.cab.closed > g > line.door.closed {
+    visibility:visible;
+}
+
+
+div.content > div.schematic > svg.vehicle > g.cargo > rect {
+    fill: grey;
+}
+
+div.content > div.schematic > svg.vehicle > g.cargo > g > line.door {
+    stroke-width: 1;
+    stroke:black;
+    visibility:hidden;
+}
+
+div.content > div.schematic > svg.vehicle > g.cargo.open > g > line.door.open {
+    visibility:visible;
+}
+
+div.content > div.schematic > svg.vehicle > g.cargo.closed > g > line.door.closed {
+    visibility:visible;
+}
+*/
+
+div.content > div.schematic div.pods {
+    padding:2px;
+    display:flex;
+    flex-wrap:wrap;
+    height:100%;
+    width:100%;
+}
+
+div.content > div.schematic div.pods > div.pod {
+    background-color: #999999;
+    width:24px;
+    height:24px;
+    margin-left:1px;
+    margin-right:1px;
+}
+
+/*div.content > div.schematic div.pods > div.pod.loaded {
+    background-color: #DD0000;
+}
+
+div.content > div.schematic div.pods > div.pod.unloaded {
+    background-color: #00CC00;
+}*/

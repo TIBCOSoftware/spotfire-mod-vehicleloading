@@ -1,0 +1,48 @@
+{
+    "apiVersion": "1.0",
+    "version": "1.0.1",
+    "name": "Vehicle Loading",
+    "id": "vehicle-loading",
+    "icon": "images/Icons-Vehicle_Loading_24px.svg",
+    "properties": [
+
+    ],
+    "dataViewDefinition": {
+        "colorAxis": {
+            "mode": "dual",
+            "allowNonAggregatingMeasures": true,
+            "dropTarget": {
+                "icon": "Color",
+                "description": "Color by {0}"
+            }
+        },
+        "axes": [
+            {
+                "name": "Consignment Units",
+                "mode": "continuous",
+                "placement": "none"
+            },
+            {
+                "name": "Order by",
+                "mode": "dual",
+                "placement": "none"
+            },
+            {
+                "name": "Vehicle Capacity",
+                "mode": "continuous",
+                "placement": "none"
+            },
+            {
+                "name": "Cab Open",
+                "mode": "categorical",
+                "placement": "none"
+            },
+            {
+                "name": "Cargo Open",
+                "mode": "categorical",
+                "placement": "none"
+            }
+        ]
+    },
+    "files": ["index.html", "main.css", "main.js"]
+}
