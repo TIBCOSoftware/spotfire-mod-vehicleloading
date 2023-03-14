@@ -6,6 +6,8 @@ A graphical representation of cargo loading in transportation and logistics, sho
 
 ## Installation & Use
 
+[Download latest version](https://github.com/TIBCOSoftware/spotfire-mod-vehicleloading/releases)
+
 The [Wiki](https://github.com/TIBCOSoftware/spotfire-mod-vehicleloading/wiki) contains step-by-step instruction on how to install and use this Mod in TIBCO Spotfire®.
 
 ## Building the Project
